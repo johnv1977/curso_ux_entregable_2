@@ -1,0 +1,51 @@
+/* tablets styles */
+@media (max-width: 1023px) {
+  #hero {
+    padding-top: 24px;
+  }
+
+  #hero .block {
+    width: 100% !important;
+  }
+
+  #hero .goal {
+    margin: 0px auto 28px;
+    width: 50%;
+  }
+
+  #hero .texts {
+    text-align: center;
+  }
+
+  #stats {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px 0px;
+  }
+
+  #features {
+    padding: 100px 24px 140px;
+  }
+
+  #features .blocks {
+    flex-direction: column;
+  }
+
+  .card {
+    align-items: center;
+    flex-direction: row !important;
+    gap: 24px;
+    justify-content: start;
+  }
+
+  .icon-circle {
+    display: inline-block;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  footer .icons {
+    margin-bottom: 24px;
+  }
+}
